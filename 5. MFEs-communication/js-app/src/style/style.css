@@ -1,0 +1,21 @@
+.container {
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.header_logo, #foodItems {
+    text-align: center;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 30%;
+    text-align: center;;
+}
+
+.item {
+    background-color: #ccc;
+    padding: 10px;
+}
