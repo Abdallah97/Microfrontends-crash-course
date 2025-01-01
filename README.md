@@ -5,3 +5,5 @@ As a part of this repo we are working on creating crash course around microfront
 2. MFEs-with-react-and-vuejs --> https://youtu.be/bBm6D3R7NN8?feature=shared
 3. MFEs-with-react-vuejs-and-vanilajs --> https://youtu.be/je2aZqDi1AI?feature=shared
 4. MFEs-routing --> https://youtu.be/v87SEnyrC14?feature=shared
+5. MFEs-communication --> https://youtu.be/0The586wsiY?feature=shared
+6. MFEs-state-management --> 
