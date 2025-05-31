@@ -80,3 +80,5 @@ const Todo = ({ item, deleteTodo }) => {
 };
 
 export default TodoApp;
+
+//only deafault export is allowed in this file for webpack to work properly

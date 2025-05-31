@@ -43,7 +43,8 @@ module.exports = {
             name: "VueApp",
             filename: "remoteEntry.js",
             exposes: {
-                "./VueApp": "./src/index"
+                "./VueApp": "./src/index",
+                "./NewVueButton": "./src/NewVueButton.vue"
             },
         })
     ]
