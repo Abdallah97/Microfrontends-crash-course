@@ -14,8 +14,7 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js', '.vue']
-    },
-    module: {
+    },    module: {
         rules: [
             {
                 test: /.vue$/,
@@ -31,6 +30,10 @@ module.exports = {
                         plugins: ['@babel/plugin-transform-runtime'],
                     }
                 }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
             }
         ]
     },
