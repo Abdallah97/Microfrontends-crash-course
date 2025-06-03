@@ -26,6 +26,7 @@ module.exports = {
       remotes: {
         "DetailCardInHost" : "commonComponents@http://localhost:3001/remoteEntry.js",
         "ShortCardInHost" : "commonComponents@http://localhost:3001/remoteEntry.js",
+        "ProductCardInHost": "commonComponents@http://localhost:3001/remoteEntry.js",
         "TodoAppHost": "ToDoApp@http://localhost:3002/remoteEntry.js",
         "VueAppHost": "VueApp@http://localhost:3003/remoteEntry.js",
         "JsAppHost": "JsApp@http://localhost:3004/remoteEntry.js"

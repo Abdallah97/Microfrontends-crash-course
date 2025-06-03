@@ -19,14 +19,15 @@ module.exports = {
     port: 3001,
     historyApiFallback: true,
   },
-  plugins: [
-    new ModuleFederationPlugin({
+  plugins: [    new ModuleFederationPlugin({
       name: "commonComponents",
       filename: "remoteEntry.js",
       exposes: {
-        "./CardDetails" : "/src/components/CardDetails.jsx",
-        "./CardShort": "/src/components/CardShort.jsx"
-      }
+        "./CardDetails" : "./src/components/CardDetails.jsx",
+        "./CardShort": "./src/components/CardShort.jsx",
+        "./ProductCard": "./src/components/ProductCard.jsx",
+      },
+      shared: ["react", "react-dom"]
     }),
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({

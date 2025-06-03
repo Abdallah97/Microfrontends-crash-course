@@ -3,11 +3,11 @@ import "JsAppHost/JsApp";
 
 const JsApp = () => {
     return (
-        <div className="container">
+        <div className="js-app-wrapper">
             <div className="header_logo">
                 <img id="logo" />
             </div>
-            <div id="foodItems"></div>
+            <div id="orderSummary"></div>
         </div>
     )
 }
