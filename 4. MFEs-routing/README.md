@@ -16,5 +16,3 @@ We are using components from all the four remotes applications in host applicati
 5. Now go to MFApp folder in third tab and do npm install and then npm start (App will open in port 3000).
 6. You will see components from all four child applications are used in host application.
 
-### Demo link urls
-1. https://youtu.be/v87SEnyrC14?feature=shared
